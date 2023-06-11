@@ -1,0 +1,519 @@
+/* CSS for All Elements */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navigatin Bar */
+.navbar{
+    margin : 25px 18vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Beats Logo */
+img[alt="beatsLogo"]{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+/* Menu Bar */
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin-left: 30vw;
+}
+/* Menu Bar Hyperlinks */
+.menu li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.menu li a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* Shop Now Button */
+.shopNow{
+    background-color: rgb(46, 44, 44);
+    border: 1.5px solid black;
+    font-size: 15px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.shopNow:hover{
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(176, 1, 1);
+    color: white;
+    border: 1.5px solid white;
+}
+
+/* Main Image */
+img[alt="mainImage"]{
+    position: relative;
+    top: -180px;
+    left: 22vw;
+    width:  230px;
+}
+/* Main Section */
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30vw;
+}
+/* ONEar Image */
+img[alt="OnEar"]{
+    width: 320px;
+    margin-left: 100px;
+}
+/* OnEar Section */
+.onEarSection h1{
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.onEarSection h4{
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.onEarSection p{
+    width: 65%;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    color: #bdc0c2;
+}
+/* Shopping Bag button */
+.shoppingBagButton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(46, 44, 44);
+    border: 1.5px solid black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    width: fit-content;
+}
+.shoppingBagButton:hover{
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(176, 1, 1);
+    border: 1.5px solid #ffffff;
+}
+.shoppingBagButton img{
+    width: 15px;
+    background-color: transparent;
+}
+.shoppingBagButton p{
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+}
+.shoppingBagButton span{
+    background-color: transparent;
+}
+/* Social Partners */
+.social-partner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 380px;
+}
+.socials{
+    width: 80px;
+    cursor: pointer;
+}
+/* Specification Section */
+.specs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* Specs Text Image */
+img[alt="specsText"]{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.specification{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.specs-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.specs-right img{
+    width: 250px;
+    height: 300px;
+}
+.spec img{
+    width: 15px;
+    background-color: transparent;
+    margin-bottom: 6px;
+}
+.spec p {
+    font-size: 13px;
+    background-color: transparent;
+}
+.spec p span{
+    font-size: 11px;
+    color: #bdc0c2;
+    background-color: transparent;
+}
+.spec{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.bluetooth,.microPhone{
+    margin-left: 35px;
+}
+/* Case section */
+.case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+img[alt="caseLogo"]{
+    width: 150px;
+    margin-bottom: 35px;
+}
+.case-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 25px 300px 25px;
+}
+.left-case img{
+    width: 230px;
+}
+.case-paragraph{
+    font-size: 12px;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+/* More Information Button */
+.more-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 44, 44);
+    gap: 15px;
+    width: fit-content;
+    border:1.5px solid #000000;
+    border-radius: 8px;
+    padding: 12px 25px;
+}
+.more-info:hover{
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(176, 1, 1);
+    border: 1.5px solid #ffffff;
+}
+/* More info button icon */
+.more-info img{
+    width: 15px;
+    background-color: transparent;
+}
+/* More info text */
+.more-info p{
+    font-size: 12px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* BuyNow Section */
+.buyNow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(46, 44, 44); 
+    margin: 45px 250px 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 45px 10px;
+}
+/* buyNow Heading */
+.left-buyNow h3{
+    font-size: 17px;
+    line-height: 25px;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+/* BuyNow Paragraph */
+.buyNow-paragraph1{
+    color: #bdc0c2;
+    font-size: 14px;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+.buyNow-paragraph2{
+    background-color: transparent;
+    font-size: 13px;
+}
+/* Left Side Background */
+.left-buyNow{
+    background-color: rgb(46, 44, 44);
+}
+/* Right Side Background */
+.right-buyNow{
+    background-color: rgb(46, 44, 44);
+}
+img[alt="buyNowSectionImage"]{
+    width: 350px;
+    background-color: transparent;
+}
+/* Shopping Bag Icon Background */
+.shop-bag{
+    background-color: transparent;
+}
+/* Shopping Bag Icon */
+.buyNow-button img[alt="shoppingBag"]{
+    width: 15px;
+    background-color: transparent;
+}
+
+/* BuyNow Button */
+.buyNow-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    padding: 8px 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    border: 1px solid #bdc0c2;
+    cursor: pointer;
+}
+.buyNow-button:hover{
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(176, 1, 1);
+    border: 1.5px solid #ffffff;
+}
+/* Products Section */
+.allProducts{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Choose Your Styles Logo */
+img[alt="productLogo"]{
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+/* Product Grid */
+.product-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 250px 250px;
+    row-gap: 20;
+    column-gap: 20;
+    background-color: transparent;
+}
+/* product Background */
+.product{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 44, 44);
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* Product Paragraph */
+.product p strong{
+    font-size: 12px;
+    background-color: transparent;
+}
+.product p span{
+    color: #bdc0c2;
+    background-color: transparent;
+}
+.product p{
+    font-size: 12px;
+    background-color: transparent;
+}
+/* product Image */
+.productImg{
+    width: 95px;
+    position: relative;
+    top: -30px;
+    background-color: transparent;
+    
+}
+/* Shopping Bag Image */
+.product img[alt="shoppingBag"]{
+    width: 15px;
+    background-color: #000000;
+}
+/* Shopping Bag Background */
+.product-bag{
+    height: 32px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Price section in Product */
+.buy-product{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 0 15px;
+    margin: 0 5px 30px;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 170px;
+    align-items: flex-start;
+    margin: 0 70px 70px 240px;
+}
+/* Footer list */
+footer ul{
+    list-style: none;
+}
+
+/* Footer list hyperlinks */
+footer ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #bdc0c2;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Footer Products list */
+footer ul .list-products a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;    
+}
+footer ul .list-products{
+    margin-bottom: 10px;
+}
+/* Footer Support list */
+footer ul .list-support a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+footer ul .list-support{
+    margin-bottom: 10px;
+}
+/* Beats Logo */
+footer img[alt="beatsLogo"]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Subscribe Button */
+.subscribe-button{
+    position: relative;
+    left: 136px;
+    bottom: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: fit-content;
+    gap: 10px;
+    padding: 8px 20px;
+    border: 1px solid #656565;
+    border-radius: 5px;
+    background-color: #000000;
+}
+.subscribe-button:hover{
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(176, 1, 1);
+    border: 1.5px solid #ffffff;
+}
+.subscribe-button p{
+    background-color: transparent;
+    font-size: 10px;
+}
+.subscribe-button img{
+    width: 15px;
+    background-color: transparent;
+}
+input{
+    width: 260px;
+    height: 45px;
+    padding-left: 30px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 8px;
+    border:1.5px solid #000000;
+}
+.email-subscription input::placeholder{
+    padding-left: 0px;
+}
+/* Footer Social media Handles */
+.follow-on-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+.follow-on-social img:hover{
+    cursor: pointer;
+}
+/* UP ARROW Image */
+img[alt="upArrow"]{
+    cursor: pointer;
+}
+
